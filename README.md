@@ -1,19 +1,21 @@
 # code2seq
-This is a fork (with some adjustments) of the code2seq implementation (https://github.com/tech-srl/code2seq).
-
-## Requirements
-* Install **Python 3.6**. You may find it beneficial to use a virtual environment. Consider _miniconda_ or _venv_.
-
-* ```pip install -r requirements.txt```
+This is a fork (with some adjustments) of the [code2seq](https://github.com/tech-srl/code2seq) implementation.
 
 ## Basic Setup
+
 ### Cloning this repository
 ```
 git clone https://github.com/philmon2/code2seq.git
 cd code2seq
 ```
 
-### Retrieve the raw java dataset
+### Install requirements
+* Install **Python 3.6**. You may find it beneficial to use a virtual environment. Consider _miniconda_ or _venv_.
+
+* ```pip install -r requirements.txt```
+
+
+### Retrieve raw java dataset
 ```
 mkdir data
 cd data
@@ -25,7 +27,7 @@ cd data
 Then unpack your dataset with `tar -xvzf [name_of_file.tar.gz]`
 
 
-### Preprocess the raw Java dataset
+### Preprocess raw Java dataset
   * Edit the file [preprocess.sh](preprocess.sh) using the instructions there, pointing it to the correct training, validation and test directories.
   * Run the preprocess.sh file: `bash preprocess.sh`
 
