@@ -2,7 +2,9 @@
 This is a fork (with some adjustments) of the code2seq implementation (https://github.com/tech-srl/code2seq).
 
 ## Requirements
-```pip install -r requirements.txt```
+* Install **Python 3.6**. You may find it beneficial to use a virtual environment. Consider _miniconda_ or _venv_.
+
+* ```pip install -r requirements.txt```
 
 ## Basic Setup
 ### Cloning this repository
